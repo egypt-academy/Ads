@@ -194,3 +194,12 @@ body {
         padding: 8px 16px;
     }
 }
+.dark-mode .subscribe-button1 {
+    background: linear-gradient(90deg, #2b3875ff 60%, #161a5cff 100%);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(30, 41, 59, 0.18);
+}
+
+.dark-mode .subscribe-button1:hover {
+    background: linear-gradient(90deg, #25D366 60%, #128C7E 100%);
+}
