@@ -2,7 +2,7 @@
 function validateCode(event) {
     event.preventDefault();
     const code = prompt("ادخل كود الاشتراك");
-    const validCode = "01272796287";
+    const validCode = "28102810";
 
     if (code === validCode) {
         localStorage.setItem('isLoggedIn', 'true');
