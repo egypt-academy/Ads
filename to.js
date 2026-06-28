@@ -6,7 +6,7 @@ function validateCode(event) {
 
     if (code === validCode) {
         localStorage.setItem('isLoggedIn', 'true');
-        window.location.href = 'https://egypt-academy.github.io/uc/basics-course.html';
+        window.location.href = 'https://drive.google.com/drive/folders/1INYJsFv4k0eS1R60PmSa2zQZp50Vmp3V?usp=sharing';
     } else {
         alert('كود غير صحيح');
     }
